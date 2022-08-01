@@ -3,4 +3,6 @@
 require_once  __DIR__ . '/../vendor/autoload.php';
 
 use function BrainGames\Cli\run;
-run();
+
+print_r("Welcome brain-even\n");
+
