@@ -14,6 +14,7 @@
     "description": "Brain Games",
     "autoload": {
         "files": [
+            "src/Games/Calc.php",
             "src/Cli.php"
         ]
     },

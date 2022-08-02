@@ -8,9 +8,10 @@ use function cli\prompt;
 function run()
 {
     line('Welcome to the Brain Games!');
-    line('Answer "yes" if the number is even, otherwise answer "no"' . PHP_EOL);
-    $name = prompt('May I have your name?');
+    $name = prompt('May I have your name?'); 
     line("Hello, %s!", $name);
+
+    line('Answer "yes" if the number is even, otherwise answer "no"' . PHP_EOL);
     for ($i = 0; $i < 3; $i++) {
         $number = rand(1, 99);
         $message = "Question: {$number}";
