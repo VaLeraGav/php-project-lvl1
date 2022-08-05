@@ -2,7 +2,8 @@
 <?php
 require_once  __DIR__ . '/../vendor/autoload.php';
 
+use function BrainGames\Games\Even\even;
 use function BrainGames\Cli\run;
 
 print_r("Welcome brain-even\n");
-
+// even();

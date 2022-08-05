@@ -2,7 +2,6 @@
 
 namespace BrainGames\Games\Calc;
 
-use FFI\Exception;
 use function BrainGames\Engine\run;
 
 const DESCRIPTION = "What is the result of the expression?";
@@ -25,10 +24,7 @@ function calculator()
             case '*':
                 $result = $first * $second;
                 break;
-            default:
-                throw new Exception('There is no such operator: {$sign}.');
-        }
-        print_r($result);
+        } 
         return [$question, $result];
     };
     run(DESCRIPTION, $runGame);

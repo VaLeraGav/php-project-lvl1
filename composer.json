@@ -2,7 +2,8 @@
     "name": "hexlet/code",
     "bin": [
         "bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"
     ],
     "type": "project",
     "authors": [
@@ -14,6 +15,7 @@
     "description": "Brain Games",
     "autoload": {
         "files": [
+            "src/Engine.php",
             "src/Games/Calc.php",
             "src/Cli.php"
         ]
