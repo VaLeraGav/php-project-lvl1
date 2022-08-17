@@ -15,9 +15,7 @@ function run(string $description, callable $runGame, int $roundsCount = 3)
         [$question, $rightAnswer] = $runGame();
         line("Question: {$question}");
         $answerUser = prompt("You answer");
-        if ($rightAnswer === $answerUser) {
-            line("Correct!");
-        } else {
+        if ($rightAnswer !== $answerUser) {
             line("'{$answerUser}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
             line("Let's try again, {$name}!");
             return;
