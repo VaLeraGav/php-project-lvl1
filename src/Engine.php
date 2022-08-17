@@ -19,7 +19,7 @@ function run(string $description, callable $runGame, int $roundsCount = 3)
             line("Correct!");
         } else {
             line("'{$answerUser}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
-            line("Let's try again, {$name}");
+            line("Let's try again, {$name}!");
             return;
         }
         line("Correct!");
