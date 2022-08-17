@@ -29,10 +29,3 @@ function gcd(int $first, int $second)
         return gcd($first, $second - $first);
     }
 }
-// function  gcd(int $first, int $second)
-// {
-//     if ($second === 0) {
-//         return abs($first);
-//     }
-//     return gcd($second, $first % $second);
-// }
