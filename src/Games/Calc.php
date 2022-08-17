@@ -24,7 +24,7 @@ function runCalculator()
             case '*':
                 $result = $first * $second;
                 break;
-        } 
+        }
         return [$question, (string)$result];
     };
     run(DESCRIPTION, $runGame);

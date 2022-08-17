@@ -22,7 +22,7 @@ function runProgression()
     run(DESCRIPTION, $runGame);
 }
 
-function  generateProgression(int $start, int $step, int $size)
+function generateProgression(int $start, int $step, int $size)
 {
     $res = [];
     for ($i = 1; $i <= $size; $i += 1) {
