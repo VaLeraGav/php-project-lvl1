@@ -1,6 +1,5 @@
 <?php
 
-
 namespace BrainGames\Engine;
 
 use function cli\line;
@@ -12,12 +11,10 @@ function run(string $description, callable $runGame, int $roundsCount = 3)
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
     line($description);
-
     for ($i = 0; $i < $roundsCount; $i++) {
         [$question, $rightAnswer] = $runGame();
         line("Question: {$question}");
         $answerUser = prompt("You answer");
-
         if ($rightAnswer === $answerUser) {
             line("Correct!");
         } else {

@@ -1,7 +1,8 @@
 #!/usr/bin/env php
-<?php
+<?php 
+
 require_once  __DIR__ . '/../vendor/autoload.php';
 
-use function BrainGames\Games\Calc\runCalculator;
+use function BrainGames\Games\Gcd\runGcd;
 
-runCalculator();
+runGcd();

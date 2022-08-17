@@ -13,6 +13,8 @@ brain-even:
 brain-games:
 	./bin/brain-games
 
+brain-games:
+	./bin/brain-gcd
 
 lint:
 	composer exec --verbose phpcs -- --standard=PSR12 src bin

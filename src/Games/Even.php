@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\Even;
 
-function even()
+function runEven()
 {
     $number = rand(1, 100);
     $message = "Question: {$number}";

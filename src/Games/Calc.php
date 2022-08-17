@@ -6,7 +6,7 @@ use function BrainGames\Engine\run;
 
 const DESCRIPTION = "What is the result of the expression?";
 
-function calculator()
+function runCalculator()
 {
     $runGame = function () {
         $first = rand(1, 100);
@@ -25,7 +25,7 @@ function calculator()
                 $result = $first * $second;
                 break;
         } 
-        return [$question, $result];
+        return [$question, (string)$result];
     };
     run(DESCRIPTION, $runGame);
 }
