@@ -13,7 +13,7 @@ function runCalculator()
         $second = rand(1, 100);
         $signs = ['-', '+', '*'];
         $sign = $signs[array_rand($signs)];
-        $question = "{$first}{$sign}{$second}";
+        $question = "{$first} {$sign} {$second}";
         switch ($sign) {
             case '-':
                 $result = $first - $second;
