@@ -16,5 +16,8 @@ brain-games:
 brain-games:
 	./bin/brain-gcd
 
+brain-progression:
+	./bin/brain-progression
+
 lint:
 	composer exec --verbose phpcs -- --standard=PSR12 src bin
