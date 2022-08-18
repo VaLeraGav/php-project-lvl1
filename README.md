@@ -32,7 +32,7 @@ $ brain-even
 [![asciicast](https://asciinema.org/a/jxH7WvK4UfbEiftqeS5Z9N8yf.svg)](https://asciinema.org/a/jxH7WvK4UfbEiftqeS5Z9N8yf)
 ### brain-calc
 Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
-
+ 
 Запуск игры:
 
 ```
