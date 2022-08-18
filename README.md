@@ -29,7 +29,7 @@ $ composer global require VaLeraGav/php-project-lvl1
 ```
 $ brain-even
 ```
-[![asciicast](https://asciinema.org/a/U3s2WMNqoxL3S0DRD3AfeRUt4.svg)](https://asciinema.org/a/U3s2WMNqoxL3S0DRD3AfeRUt4)
+[![asciicast](https://asciinema.org/a/jxH7WvK4UfbEiftqeS5Z9N8yf.svg)](https://asciinema.org/a/jxH7WvK4UfbEiftqeS5Z9N8yf)
 ### brain-calc
 Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
 
@@ -38,7 +38,7 @@ $ brain-even
 ```
 $ brain-calc
 ```
-[![asciicast](https://asciinema.org/a/Hbgp3bHyW22ukitkqCtaRVtJT.svg)](https://asciinema.org/a/Hbgp3bHyW22ukitkqCtaRVtJT)
+[![asciicast](https://asciinema.org/a/Rej84BMaJNOOLKpqWBJcVKGpF.svg)](https://asciinema.org/a/Rej84BMaJNOOLKpqWBJcVKGpF)
 ### brain-gcd
 Пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 
@@ -47,7 +47,7 @@ $ brain-calc
 ```
 $ brain-gcd
 ```
-[![asciicast](https://asciinema.org/a/gTxou2w3T2oYTT92skqLvAPk7.svg)](https://asciinema.org/a/gTxou2w3T2oYTT92skqLvAPk7)
+[![asciicast](https://asciinema.org/a/CBTWOQqQTNBMCnVaJsEaQCkWT.svg)](https://asciinema.org/a/CBTWOQqQTNBMCnVaJsEaQCkWT)
 ### brain-progression
 Показываем игроку ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
 
@@ -56,7 +56,7 @@ $ brain-gcd
 ```
 $ brain-progression
 ```
-[![asciicast](https://asciinema.org/a/MANwtWLYyJMaawgdFZTMs2KDb.svg)](https://asciinema.org/a/MANwtWLYyJMaawgdFZTMs2KDb)
+[![asciicast](https://asciinema.org/a/5uwyl9UncQanCVV0bcSJyrQhB.svg)](https://asciinema.org/a/5uwyl9UncQanCVV0bcSJyrQhB)
 ### brain-prime
 Ответьте "да", если данное число является простым. В противном случае ответьте "нет".
 
@@ -64,5 +64,5 @@ $ brain-progression
 ```
 $ brain-prime
 ```
-[![asciicast](https://asciinema.org/a/IcOTYSZtBa54KCH816yCmTJ3n.svg)](https://asciinema.org/a/IcOTYSZtBa54KCH816yCmTJ3n)
+[![asciicast](https://asciinema.org/a/qK4MsU6czrxyp5L2nIuBrUQIf.svg)](https://asciinema.org/a/qK4MsU6czrxyp5L2nIuBrUQIf)
 
