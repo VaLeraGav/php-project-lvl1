@@ -6,7 +6,6 @@ use function BrainGames\Engine\run;
 
 const DESCRIPTION = "What is the result of the expression?";
 
-
 function calculate(int $first, int $second, string $sign): string
 {
     switch ($sign) {

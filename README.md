@@ -10,15 +10,15 @@
 $ composer global require VaLeraGav/php-project-lvl1
 ```
 ### Список игр
-`bin/brain-even` - запуск игры [brain even](#brain-even)
+`brain-even` - запуск игры [brain even](#brain-even)
 
-`bin/brain-calc` - запуск игры [brain calc](#brain-calc)
+`brain-calc` - запуск игры [brain calc](#brain-calc)
 
-`bin/brain-gcd` - запуск игры [brain gcd](#brain-gcd)
+`brain-gcd` - запуск игры [brain gcd](#brain-gcd)
 
-`bin/brain-progression` - запуск игры [brain progression](#brain-progression)
+`brain-progression` - запуск игры [brain progression](#brain-progression)
 
-`bin/brain-prime` - запуск игры [brain prime](#brain-prime)
+`brain-prime` - запуск игры [brain prime](#brain-prime)
 
 
 ### brain-even
