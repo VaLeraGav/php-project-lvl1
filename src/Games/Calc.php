@@ -6,6 +6,21 @@ use function BrainGames\Engine\run;
 
 const DESCRIPTION = "What is the result of the expression?";
 
+
+function calculate(int $first, int $second, string $sign): string
+{
+    switch ($sign) {
+        case '+':
+            return $first + $second;
+        case '-':
+            return $first - $second;
+        case '*':
+            return $first * $second;
+        default:
+            return "Incorrect sign: '{$sign}'";
+    }
+}
+
 function runCalculator()
 {
     $runGame = function () {
@@ -14,18 +29,8 @@ function runCalculator()
         $signs = ['-', '+', '*'];
         $sign = $signs[array_rand($signs)];
         $question = "{$first} {$sign} {$second}";
-        switch ($sign) {
-            case '-':
-                $result = $first - $second;
-                break;
-            case '+':
-                $result = $first + $second;
-                break;
-            case '*':
-                $result = $first * $second;
-                break;
-        }
-        return [$question, (string)$result];
+        $result = calculate($first, $second, $sign);
+        return [$question, $result];
     };
     run(DESCRIPTION, $runGame);
 }

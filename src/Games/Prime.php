@@ -11,7 +11,7 @@ function runPrime()
     $runGame = function () {
         $question = rand(1, 100);
         $result = isPrime($question) ? 'yes' : 'no';
-        return [$question, (string)$result];
+        return [$question, $result];
     };
     run(DESCRIPTION, $runGame);
 }

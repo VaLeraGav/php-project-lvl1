@@ -12,7 +12,7 @@ function runEven()
         $number = rand(1, 100);
         $message = "Question: {$number}";
         $result = isEven($number) ? 'yes' : 'no';
-        return [$message, (string) $result];
+        return [$message, $result];
     };
     run(DESCRIPTION, $runGame);
 }

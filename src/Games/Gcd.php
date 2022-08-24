@@ -12,13 +12,13 @@ function runGcd()
         $first = rand(1, 100);
         $second = rand(1, 100);
         $question = "{$first} {$second}";
-        $result = (string)gcd($first, $second);
-        return [$question, (string)$result];
+        $result = gcd($first, $second);
+        return [$question, $result];
     };
     run(DESCRIPTION, $runGame);
 }
 
-function gcd(int $first, int $second)
+function gcd(int $first, int $second): string
 {
     if ($first == 0 ||  $second == 0) {
         return $first + $second;
