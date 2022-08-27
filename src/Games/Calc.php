@@ -4,7 +4,7 @@ namespace BrainGames\Games\Calc;
 
 use function BrainGames\Engine\run;
 
-const DESCRIPTION = "What is the result of the expression?";
+const DESCRIPTION = 'What is the result of the expression?';
 
 function calculate(int $first, int $second, string $sign): string
 {
@@ -16,7 +16,7 @@ function calculate(int $first, int $second, string $sign): string
         case '*':
             return $first * $second;
         default:
-            return "Incorrect sign: '{$sign}'";
+            throw new \Error("Incorrect sign: '{$sign}'");
     }
 }
 

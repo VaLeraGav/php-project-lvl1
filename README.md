@@ -1,13 +1,20 @@
 ### Учебный проект Brain Games:
+[![Maintainability](https://api.codeclimate.com/v1/badges/7710c557ac87bcc7fc0d/maintainability)](https://codeclimate.com/github/VaLeraGav/php-project-lvl1/maintainability)
 [![Actions Status](https://github.com/VaLeraGav/php-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/VaLeraGav/php-project-lvl1/actions)
 
 Первый проект из четырёх, в рамках профессии PHP-программист на [Хекслет](https://ru.hexlet.io/professions/php).
 
 ### Описание проекта
 Необходимо реализовать набор мини-игр, запускаемых из консоли.
-### Установка
+
+### Требование Установка
+Наличие на компьютере PHP >= 7
 ```
+$ sudo apt install php
+
 $ composer global require VaLeraGav/php-project-lvl1
+
+$ make install
 ```
 ### Список игр
 `brain-even` - запуск игры [brain even](#brain-even)
