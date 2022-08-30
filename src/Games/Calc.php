@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\Calc;
 
-use function BrainGames\Engine\run;
+use function BrainGames\Engine\runGame;
 
 const DESCRIPTION = 'What is the result of the expression?';
 
@@ -20,7 +20,7 @@ function calculate(int $first, int $second, string $sign): string
     }
 }
 
-function runCalculator()
+function run()
 {
     $runGame = function () {
         $first = rand(1, 100);
@@ -31,5 +31,5 @@ function runCalculator()
         $result = calculate($first, $second, $sign);
         return [$question, $result];
     };
-    run(DESCRIPTION, $runGame);
+    runGame(DESCRIPTION, $runGame);
 }

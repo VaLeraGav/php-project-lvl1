@@ -2,6 +2,6 @@
 <?php 
 require_once  __DIR__ . '/../vendor/autoload.php';
 
-use function BrainGames\Games\Gcd\runGcd;
+use function BrainGames\Games\Gcd\run;
 
-runGcd();
+run();

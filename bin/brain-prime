@@ -2,6 +2,6 @@
 <?php
 require_once  __DIR__ . '/../vendor/autoload.php';
 
-use function BrainGames\Games\Prime\runPrime;
+use function BrainGames\Games\Prime\run;
 
-runPrime();
+run();

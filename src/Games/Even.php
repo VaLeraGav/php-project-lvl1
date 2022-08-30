@@ -2,11 +2,11 @@
 
 namespace BrainGames\Games\Even;
 
-use function BrainGames\Engine\run;
+use function BrainGames\Engine\runGame;
 
 const DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-function runEven()
+function run()
 {
     $runGame = function () {
         $number = rand(1, 100);
@@ -14,7 +14,7 @@ function runEven()
         $result = isEven($number) ? 'yes' : 'no';
         return [$message, $result];
     };
-    run(DESCRIPTION, $runGame);
+    runGame(DESCRIPTION, $runGame);
 }
 
 function isEven(int $number)
