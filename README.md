@@ -17,6 +17,7 @@ $ git clone https://github.com/VaLeraGav/php-project-lvl1.git
 $ make install
 ```
 ### Список игр
+Можно выполнять запуск через `make brain-...` или `./bin/brain-...`    
 `brain-even` - запуск игры [brain even](#brain-even)
 
 `brain-calc` - запуск игры [brain calc](#brain-calc)
@@ -25,8 +26,7 @@ $ make install
 
 `brain-progression` - запуск игры [brain progression](#brain-progression)
 
-`brain-prime` - запуск игры [brain prime](#brain-prime)
-
+`brain-prime` - запуск игры [brain prime](#brain-prime)   
 
 ### brain-even
 Пользователю показывается случайное число. И ему нужно ответить yes, если число четное, или no - если нечетное
