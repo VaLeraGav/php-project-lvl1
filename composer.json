@@ -7,7 +7,6 @@
         "bin/brain-gcd",
         "bin/brain-progression",
         "bin/brain-prime"
-
     ],
     "type": "project",
     "authors": [
@@ -26,8 +25,10 @@
             "src/Games/Gcd.php",
             "src/Games/Progression.php",
             "src/Games/Prime.php"
-            
-        ]
+        ],
+        "psr-4": {
+            "Brain\\Games\\": "src"
+        }
     },
     "require": {
         "wp-cli/php-cli-tools": "^0.11.11"

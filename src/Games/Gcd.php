@@ -18,37 +18,10 @@ function run()
     runGame(DESCRIPTION, $runGame);
 }
 
-// function gcd(int $first, int $second): string
-// {
-//     if ($first == 0 ||  $second == 0) {
-//         return $first + $second;
-//     }
-//     if ($first > $second) {
-//         return gcd($first - $second, $second);
-//     } else {
-//         return gcd($first, $second - $first);
-//     }
-// }
-
-// function gcd(int $first, int $second): string
-// {
-//     $result = 1;
-//     for ($i = 1; $i < ($first + 1); $i++) {
-//         if ($first % $i === 0 && $second % $i === 0) {
-//             $result = $i;
-//         }
-//     }
-//     return $result;
-// }
-
 function gcd(int $first, int $second): string
 {
     if ($first == 0 ||  $second == 0) {
         return $first + $second;
     }
-    if ($first > $second) {
-        return gcd($first % $second, $second);
-    } else {
-        return gcd($first, $second % $first);
-    }
+    return ($first > $second) ? gcd($first % $second, $second) : gcd($first, $second % $first);
 }

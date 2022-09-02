@@ -12,7 +12,7 @@
 ```
 $ sudo apt install php
 
-$ composer global require VaLeraGav/php-project-lvl1
+$ git clone https://github.com/VaLeraGav/php-project-lvl1.git
 
 $ make install
 ```
