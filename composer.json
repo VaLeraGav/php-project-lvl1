@@ -1,5 +1,6 @@
 {
     "name": "hexlet/code",
+    "description": "First training project by Hexlet",
     "bin": [
         "bin/brain-games",
         "bin/brain-even",
@@ -15,7 +16,6 @@
             "email": "email@hexlet.io"
         }
     ],
-    "description": "Brain Games",
     "autoload": {
         "files": [
             "src/Engine.php",
