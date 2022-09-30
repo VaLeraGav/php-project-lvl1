@@ -15,12 +15,12 @@ function run()
         $size = 10;
         $progression = generateProgression($start, $step, $size);
         $randomPosition = rand(0, $size - 1);
-        $result = $progression[$randomPosition];
+        $answer = $progression[$randomPosition];
 
         $progressionWithHidden = array_replace($progression, [$randomPosition => '..']);
         $question = implode(' ', $progressionWithHidden);
 
-        return [$question, (string) $result];
+        return [$question, (string) $answer];
     };
     runGame(DESCRIPTION, $runGame);
 }

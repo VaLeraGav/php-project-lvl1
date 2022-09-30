@@ -28,8 +28,8 @@ function run()
         $signs = ['-', '+', '*'];
         $sign = $signs[array_rand($signs)];
         $question = "{$first} {$sign} {$second}";
-        $result = calculate($first, $second, $sign);
-        return [$question, $result];
+        $answer = calculate($first, $second, $sign);
+        return [$question, $answer];
     };
     runGame(DESCRIPTION, $runGame);
 }

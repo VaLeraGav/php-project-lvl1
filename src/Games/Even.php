@@ -11,8 +11,8 @@ function run()
     $runGame = function () {
         $number = rand(1, 100);
         $message = "Question: {$number}";
-        $result = isEven($number) ? 'yes' : 'no';
-        return [$message, $result];
+        $answer = isEven($number) ? 'yes' : 'no';
+        return [$message, $answer];
     };
     runGame(DESCRIPTION, $runGame);
 }

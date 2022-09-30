@@ -10,8 +10,8 @@ function run()
 {
     $runGame = function () {
         $question = rand(1, 100);
-        $result = isPrime($question) ? 'yes' : 'no';
-        return [$question, $result];
+        $answer = isPrime($question) ? 'yes' : 'no';
+        return [$question, $answer];
     };
     runGame(DESCRIPTION, $runGame);
 }

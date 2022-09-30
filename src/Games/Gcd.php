@@ -12,8 +12,8 @@ function run()
         $first = rand(1, 100);
         $second = rand(1, 100);
         $question = "{$first} {$second}";
-        $result = gcd($first, $second);
-        return [$question, $result];
+        $answer = gcd($first, $second);
+        return [$question, $answer];
     };
     runGame(DESCRIPTION, $runGame);
 }
